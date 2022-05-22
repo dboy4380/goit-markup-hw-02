@@ -16,6 +16,7 @@ body {
 }
 
 button {
+  font-family: inherit;
   cursor: pointer;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -26,6 +27,9 @@ footer {
   background-color: var(--second-back-color);
 }
 
+address {
+  font-style: normal;
+}
 /* -----------------HEADER------------------ */
 
 .current-link {
@@ -111,10 +115,6 @@ footer {
 }
 
 .button-hero {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -145,6 +145,12 @@ footer {
   color: var(--part-text-color);
 }
 
+.point-list {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 .headline-name {
   font-weight: 500;
   font-size: 16px;
@@ -153,6 +159,24 @@ footer {
   color: var(--part-text-color);
 }
 
+.job-position {
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.headline-point-project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--part-text-color);
+}
+
+.type-project {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+}
 /* -----------------BUTTON-PORTFOLIO------------------ */
 
 .button-projects {
@@ -200,8 +224,4 @@ footer {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--first-back-color);
-}
-
-.contact {
-  font-style: normal;
 }
