@@ -7,7 +7,7 @@
   --second-back-color: #2f303a;
   --logo-second-color: #000000;
   --part-text-color: #212121;
-  --additional-text-color: #757575;
+  --additional-text-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -173,7 +173,6 @@ address {
 }
 
 .type-project {
-font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 }
@@ -219,7 +218,6 @@ letter-spacing: 0.03em;
 }
 .adress-footer {
   text-decoration: none;
-  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
